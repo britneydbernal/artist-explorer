@@ -1,16 +1,32 @@
-# React + Vite
+Artist Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Project Description
 
-Currently, two official plugins are available:
+- Artist Explorer is a React-based web application that allows users to search for artists and explore their artworks from a public museum collection. The application fetches data from the Art Institute of Chicago API and presents it in a clean, card-based interface. Users can search for an artist by name, view a list of matching artists, and navigate to a detailed page displaying artworks associated with a selected artist
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo Video
 
-## React Compiler
+### Technologies used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- React Router
+- Javascript
+- HTML
+- CSS
+- Art Institute of Chicago API
 
-## Expanding the ESLint configuration
+#### Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Search artists by name
+- Display artist results in a gallery layout
+- View artworks related to a selected artist
+- Client side routing goes multiple ways
+- Loading and error states for API requests
+- Responsive design
+- Reusable React components
+
+##### API
+
+This project uses the Art Institute of Chicago API, which provides access to public museum artwork and artist data.
+
+- https://api.artic.edu/docs/
