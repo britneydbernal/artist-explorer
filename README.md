@@ -4,7 +4,10 @@ Artist Explorer
 
 - Artist Explorer is a React-based web application that allows users to search for artists and explore their artworks from a public museum collection. The application fetches data from the Art Institute of Chicago API and presents it in a clean, card-based interface. Users can search for an artist by name, view a list of matching artists, and navigate to a detailed page displaying artworks associated with a selected artist
 
-## Demo Video
+## Live Demo
+
+View the deployed project here:
+https://britneydbernal.github.io/artist-explorer/
 
 ### Technologies used
 
