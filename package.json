@@ -2,7 +2,7 @@
   "name": "artist-explorer",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://britneybernal.github.io/artist-explorer",
+  "homepage": "https://britneydbernal.github.io/artist-explorer",
   "type": "module",
   "scripts": {
     "dev": "vite",
